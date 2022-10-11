@@ -29,3 +29,11 @@ There are three parts to creating your own personal web page in GitHub. The firs
 5. Hit "commit" this will save both files to your remote repository on GitHub
 6. Now you can open a new tab in your browser and enter the exact URL of "username.github.io"
 7. This will display your first personal web page on GitHub. Congratulations!
+
+## Resources:
+* [Mozzilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [HTML \<h1> to \<h6> Tags](https://www.w3schools.com/tags/tag_hn.asp)
+* [HTML Global Attributes](https://www.w3schools.com/tags/ref_standardattributes.asp)
+* [HTML Event Attributes](https://www.w3schools.com/tags/ref_eventattributes.asp)
+* [HTML \<img> Tag](https://www.w3schools.com/tags/tag_img.asp)
+* [Crash Course On Git (10:00)](https://classroom.emeritus.org/courses/1173/pages/crash-course-on-git-10-00?module_item_id=287132)
