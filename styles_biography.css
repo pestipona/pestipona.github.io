@@ -48,6 +48,6 @@
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 }
-.lead {
+.lead.text-muted {
     text-align: left;
 }
