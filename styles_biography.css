@@ -55,3 +55,6 @@
 .col-lg-6.col-md-8.mx-auto {
     width: auto;
 }
+.fw-light {
+    text-align: center;
+}
