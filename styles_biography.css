@@ -52,3 +52,6 @@
     text-align: left;
     font-size: 1.5em;
 }
+.col-lg-6.col-md-8.mx-auto {
+    width: auto;
+}
