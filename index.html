@@ -38,7 +38,7 @@
                 <a class="link-secondary" href="#">Subscribe</a>
             </div>
             <div class="col-4 text-center">
-                <a class="blog-header-logo text-dark" href="#">Large</a>
+                <a class="blog-header-logo text-dark" href="#">paul_estipona@outlook.com</a>
             </div>
             <div class="col-4 d-flex justify-content-end align-items-center">
                 <a class="link-secondary" href="#" aria-label="Search">
@@ -58,7 +58,7 @@
             <a class="p-2 link-secondary" href="#">Python</a>
             <a class="p-2 link-secondary" href="#">JavaScript</a>
             <a class="p-2 link-secondary" href="#">Data Structures</a>
-            <a class="p-2 link-secondary" href="#">OOP</a>
+            <a class="p-2 link-secondary" href="#">DevSecOps</a>
             <a class="p-2 link-secondary" href="#">Distributed</a>
             <a class="p-2 link-secondary" href="#">Games</a>
             <a class="p-2 link-secondary" href="#">Cloud</a>
@@ -189,10 +189,35 @@
                 <p>Most of these elements are styled by browsers with few modifications on our part.</p>
                 <h2>Heading</h2>
                 <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                <h3>Sub-heading</h3>
-                <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                <pre><code>Example code block</code></pre>
-                <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+            </article>
+            <hr>
+
+            <article class="blog-post">
+                <h3>Creating A Callback Function Reflection</h3>
+                <p class="blog-post-meta">December 31, 2022 by <a href="#">Paul</a></p>
+                <p>In JavaScript I learned something new called <strong>Callback Functions</strong>. This is a function that is passed into another function as an argument and invoked to perform a specific task. I've seen callbacks applied in other programming languages like C++ and Python.</p>
+                <p>One way to illustrate the concept of callbacks is to show an example of a callback function used in code.</p>
+    <pre><code>
+    // Data list of numbers defined in an array.
+    const list = [5, 8, 9, 2, 7, 6, 3, 1, 4];
+
+    // Callback function creates a list of numbers < 5:
+    function callback(list){
+        const newList = [];
+        for (let i = 0; i < list.length; i++) {
+            if (list[i] < 5){
+                newList.push(list[i]);
+            }
+        } return newList;
+    }
+
+    // Filter function using a callback to create a list of numbers < 5:
+    function filter(list, callback) {
+        return callback(list);
+    }
+    </code></pre>
+
+                <p>As can be seen in the previous example above the <strong>Callback Function</strong> was passed into the <strong>Filter Function</strong> and applied to each element of the data list which was an array. This is a very useful feature that has many applications in JavaScript.</p>
             </article>
             <hr>
 
