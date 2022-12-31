@@ -37,3 +37,10 @@ There are three parts to creating your own personal web page in GitHub. The firs
 * [HTML Event Attributes](https://www.w3schools.com/tags/ref_eventattributes.asp)
 * [HTML \<img> Tag](https://www.w3schools.com/tags/tag_img.asp)
 * [Crash Course On Git (10:00)](https://classroom.emeritus.org/courses/1173/pages/crash-course-on-git-10-00?module_item_id=287132)
+
+* []()
+* []()
+* []()
+* []()
+* [\<image>](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/image)
+* [How TO - Two Column Layout](https://www.w3schools.com/howto/howto_css_two_columns.asp)
